@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Myanmar Talk</string>
-    <string name="user">User :</string>
+    <string name="user">Email :</string>
+    <string name="password">Password</string>
+    <string name="new_register">New_Register</string>
+    <string name="name">Name :</string>
 </resources>

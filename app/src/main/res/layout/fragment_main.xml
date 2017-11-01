@@ -4,6 +4,7 @@
 
     <!--content-->
     <LinearLayout
+        android:background="#825aef72"
         android:gravity="center_horizontal"
         android:padding="@dimen/padding"
         android:layout_centerInParent="true"
@@ -64,7 +65,7 @@
 
             <!--TextField-->
             <EditText
-                android:inputType="text"
+                android:inputType="textPassword"
                 android:hint="password :"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -73,8 +74,21 @@
         </LinearLayout>
 
         <!--Login Button-->
+        <Button
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <!--New Register-->
+        <TextView
+            android:id="@+id/txtNewRegister"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/h2"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:text="@string/new_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
 
     </LinearLayout>

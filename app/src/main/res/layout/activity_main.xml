@@ -12,4 +12,12 @@
         android:src="@drawable/bg1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <!--content Frangment-->
+    <FrameLayout
+        android:id="@+id/contentMainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
 </RelativeLayout>
